@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PIP_NO_BINARY: rasterio
+  PIP_NO_CACHE_DIR: rasterio
   DEBIAN_FRONTEND: noninteractive
 
 jobs:
