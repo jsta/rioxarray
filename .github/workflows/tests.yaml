@@ -3,8 +3,7 @@ name: Tests
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
-    branches: [ broken_latest ]
+    branches: [ master, broken_latest ]
   pull_request:
     branches: [ master ]
   schedule:
